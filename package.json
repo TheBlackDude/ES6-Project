@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TheBlackDude/ES6-Project/issues"
   },
-  "homepage": "https://github.com/TheBlackDude/ES6-Project#readme"
+  "homepage": "https://github.com/TheBlackDude/ES6-Project#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
