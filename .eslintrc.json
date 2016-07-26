@@ -9,16 +9,20 @@
     },
     "rules": {
         "indent": [
-            "error",
+            "warn",
             4
+        ],
+        "comma-dangle": [
+            "error",
+            "always-multiline"
         ],
         "linebreak-style": [
             "error",
             "unix"
         ],
         "quotes": [
-            "error",
-            "double"
+            "off",
+            "single"
         ],
         "semi": [
             "error",
