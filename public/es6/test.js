@@ -5,9 +5,9 @@ const sentences = [
     { subject: 'TheBlackDude', verb: 'is', object: 'Awesome' },
 ];
 // es6 feature: object destructuring
-function say ({ subject, verb, object}) {
+function say({ subject, verb, object }) {
 	 // es6 feature: template strings
-	 console.log('${subject} ${verb} ${object}');
+	 console.log(`${subject} ${verb} ${object}`);
 }
 // es6 feature: for..of
 for (let s of sentences) {
